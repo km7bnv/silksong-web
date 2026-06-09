@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight Wiki Fullscreen</title>
+    <style>
+        /* Remove default browser margins */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Prevent double scrollbars */
+        }
+
+        /* Make iframe cover the entire viewport */
+        iframe {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+      allowfullscreen: Enables the fullscreen button inside the wiki (if available).
+      allow: fullscreen;: Modern permission policy syntax required by some browsers.
+    -->
+    <iframe 
+        src="https://hollowknight.wiki" 
+        allowfullscreen 
+        allow="fullscreen; self-navigation"
+        title="Hollow Knight Wiki">
+        Your browser does not support iframes.
+    </iframe>
+
+</body>
+</html>
