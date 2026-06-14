@@ -1,2 +1,1 @@
-# silksong-web
-SHAW! HEGALE! ADILO! The Silksong Wiki on the web. Mikhail, this is your dream.
+Silksong web. Thats literally what it is. Contains game links and wiki (that's all for now).
